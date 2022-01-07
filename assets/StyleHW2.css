@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    height: 75px;
+background-image: url("https://cdn.crello.com/api/media/medium/179826486/stock-photo-close-shot-papers-pastel-colors?token=");
+}
+#navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    flex-shrink: 1;
+    background-color: rgba(101, 170, 230, 0.664);
+    
+}
+#navbar-options {
+    display: inline-flex;
+}
+.navOption {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: auto;
+}
+#name {
+    font-size: 50px;
+    align-self: center;
+}
