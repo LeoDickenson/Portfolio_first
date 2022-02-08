@@ -10,33 +10,43 @@
 
 <body>
     <section id="navbar">
-    <div id="name">
-        Leo Dickenson
-    </div>
-    <nav id="navbar-options">
-        <option class="navOption">About Me</option>
-        <option class="navOption">Work</option>
-        <option class="navOption">Contact Me</option>
-        <option class="navOption">Resume</option>
-    </nav>
+        <div id="name">
+            Leo Dickenson
+        </div>
+        <nav id="navbar-options">
+            <span class="navOption"> <a href="#about-me"> About Me </a> </span>
+            <span class="navOption"><a href="#work">Work</a></span>
+            <span class="navOption"><a href="#contact">Contact Me</a></span>
+            <span class="navOption">Resume</span>
+        </nav>
     </section>
 </body>
 
-<div class="blocky-divs" >
-    <header class="blocky-head">About Me</header>
+<div class="blocky-divs">
+    <header class="blocky-head"><a name="about-me">About Me</a></header>
     <p class="center-ps"> Currently enrolled in the University of Minnesota's full-stack web developement bootcamp.</p>
 </div>
 
-<div class="blocky-divs" >
-    <header class="blocky-head">Work</header>  
-        <a href="https://leodickenson.github.io/Portfolio_first/">Beers n' Brews</a>
-            <img src="./assets/Bands_Brews_Image.png" alt="Deployed javascript application screenshot">
+<div class="blocky-divs">
+    <header class="blocky-head"><a name="work">Work</a></header>
+    <header class="blocky-head"><a href="https://leodickenson.github.io/Project_1_uofm/" target="_blank">Bands and
+            Brews</a></header>
+    <img src="./assets/Bands_Brews_Image.png" alt="Deployed javascript application screenshot"
+        style="width:300px;height:200px;">
+    <header class="blocky-head"><a href="https://workboard-uofm-proj2.herokuapp.com/login" target="_blank">Workboard
+            Timeclock</a></header>
+    <img src="./assets/timeclock-punch.jpg" alt="cartoon time clock" style="width:300px;height:200px;">
+</div>
+
+<footer id="footer"><a name="contact">
+        <div id="footer-div1">515.210.4898</div>
+        <div id="footer-div2"><a href="mailto:leocdickenson@gmail.com"> leocdickenson@gmail.com </a></div>
+        <div id="footer-div1"><a
+                href="https://www.linkedin.com/in/leo-dickens-564664226?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNN2ftCBhQKW6PjBcNMN%2FGQ%3D%3D"
+                target="_blank">LinkedIn</a>
         </div>
-        
-        <Label>Contact:</Label>
-        <footer id="footer"> 
-            <div id="footer-div1">515.210.4898</div>
-            <div id="footer-div2"> leocdickenson@gmail.com </div>
-        </footer>
+    </a></footer>
+<br>
+<br>
 
 </html>

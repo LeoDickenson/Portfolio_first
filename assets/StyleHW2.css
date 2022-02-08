@@ -9,7 +9,7 @@ background-image: url("https://cdn.crello.com/api/media/medium/179826486/stock-p
     height: 90px;
     justify-content: space-between;
     flex-shrink: 1;
-    background-color: rgba(101, 170, 230, 0.664);
+    background-color: rgba(101, 170, 230, 0.6);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -36,6 +36,7 @@ background-image: url("https://cdn.crello.com/api/media/medium/179826486/stock-p
     margin-right: auto;
     margin-left: auto;
     max-width: 500px;
+    margin-bottom: 25%;
 }
 .center-ps {
     background-color: rgba(134, 134, 134, 0.75);
@@ -54,9 +55,10 @@ background-image: url("https://cdn.crello.com/api/media/medium/179826486/stock-p
     
 }
 img {
-    margin-right: auto;
+    display: block;
     margin-left: auto;
-    width: 100%;
+    margin-right: auto;
+    width: 50%;
 }
 #img-div {
     background-color: rgba(134, 134, 134, 0.75);
@@ -67,17 +69,8 @@ img {
 }
 #footer {
     display: inline-flex;
-}
-#footer-div1 {
-    margin-right: 50px;
-    margin-left: 50px;
-}
-#footer-div-2 {
-    margin-left: 50px;
-}
-#footer-div-1:hover {
-cursor: pointer;
-}
-#footer-div-2:hover {
-    cursor: pointer;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
 }
